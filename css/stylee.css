@@ -1,0 +1,235 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+    
+.header {
+        background-color: rgb(197, 197, 197);
+        width: 100%;
+        height: 45px;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+        align-items: center;
+    }
+.search input {
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+}
+li {
+    padding: 10.5px 10.5px;
+}
+li:hover {
+    background-color: rgb(146, 146, 146);
+}
+a {
+    text-decoration: none;
+}
+.link1 {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+}
+.link3 {
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+}
+.link4 {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.navbar {
+    background: black;
+    width: 428,5px;
+    height: 45px;
+    left: 458px;
+    top: 0px;
+}
+.search {
+    width: 138px;
+    height: 25px;
+    left: 1028px;
+    top: 8px;
+    display: flex;
+    background: rgb(255, 255, 255);
+}
+.block {
+    width: 342px;
+    height: 237px;
+    border: solid rgb(0, 0, 0) 2px;
+    background: url(../img/Venom.jpg);
+    background-size: 100% 100%;
+    position: relative;
+    border-radius: 5px;
+}
+.block button {
+    width: 100%;
+    height: 50px;
+    background: #FA7E0c;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 15px;
+    border: none;
+    bottom: 0;
+    position: absolute;
+}
+.button {
+    width: 100%;
+    height: 42px;
+    background: #FA7E0c;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    border: none;
+    bottom: 0;
+    position: relative;
+    top: 90px;
+}
+.main {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    flex-direction: row;
+}
+.cinema-title {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(175, 175, 175);
+}
+.footer {
+    background-color: rgb(158, 158, 158);
+    width: 100%;
+    height: 150px;
+    display: flex;
+    color: rgb(0, 0, 0);
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+}
+.all {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.bl1 {
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: rgb(255, 255, 255);
+}
+.block:nth-child(1) {
+    background: url(../img/гл1.jpg);
+    background-size: 100% 100%;
+}
+.block:nth-child(2) {
+    background: url(../img/Дюна.jpg);
+    background-size: 100% 100%;
+}
+.block:nth-child(3) {
+    background: url(../img/Venom.jpg);
+    background-size: 100% 100%;
+}
+.block:nth-child(4) {
+    background: url(../img/Venom.jpg);
+    background-size: 100% 100%;
+}
+.block:nth-child(5) {
+    background: url(../img/Дюна.jpg);
+    border-radius: 8px;
+    background-size: 100% 100%;
+}
+.bl2 {
+    width: 342px;
+    height: 535px;
+    background: #C4C4C4;
+    margin-right: 52px;
+}
+.bl2-block {
+    width: 342px;
+    height: 535px;
+    background-color: rgb(136, 136, 136);
+    position: relative;
+}
+.bl2-block button {
+    width: 100%;
+    height: 50px;
+    background: #FA7E0c;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 15px;
+    border: none;
+    bottom: 0;
+    position: absolute;
+}
+.bl3 {
+    width: 251px;
+    height: 326px;
+    background: #C4C4C4;
+    margin-right: 52px;
+}
+.bl3-block {
+    width: 251px;
+    height: 326px;
+    background-color: rgb(136, 136, 136);
+    position: relative;
+    font-size: 13px;
+}
+.bl3-block button {
+    width: 100%;
+    height: 50px;
+    background: #FA7E0c;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 15px;
+    border: none;
+    bottom: 0;
+    position: absolute;
+}
+.bl4 {
+    width: 76%;
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+
+}
+.bl4-block {
+    width: 182px;
+    height: 125px;
+    background-color: rgb(143, 143, 144);
+    position: relative;
+}
+.bl4-block button {
+    width: 100%;
+    height: 30px;
+    background: #FA7E0c;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 15px;
+    border: none;
+    bottom: 0;
+    position: absolute;
+}
